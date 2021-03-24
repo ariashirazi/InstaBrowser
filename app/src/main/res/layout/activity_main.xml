@@ -23,7 +23,7 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txtInputName"
+        android:id="@+id/txtInputUsername"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_width="match_parent"
@@ -32,7 +32,7 @@
         >
 
         <EditText
-            android:id="@+id/ed_message_name"
+            android:id="@+id/ed_message_username"
             android:inputType="text"
 
             android:hint="Username"
@@ -48,7 +48,7 @@
 
     <com.google.android.material.textfield.TextInputLayout
 
-        android:id="@+id/txtInputEmail"
+        android:id="@+id/txtInputPassword"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="10dp"
@@ -63,41 +63,19 @@
         >
 
         <EditText
-            android:id="@+id/ed_message_email"
+            android:id="@+id/ed_message_password"
             android:inputType="textPassword"
             android:hint="Password"
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-
-
-
             />
 
     </com.google.android.material.textfield.TextInputLayout>
 
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txtInputMsg"
-        android:layout_margin="20dp"
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        >
-
-        <EditText
-            android:id="@+id/ed_message_text"
-            android:inputType="text"
-            android:hint="enter your message"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-
-            />
-
-    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/button16"
