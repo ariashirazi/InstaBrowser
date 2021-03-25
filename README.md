@@ -8,14 +8,14 @@ Android Phishing Application.<br/>
 <h2>Screenshots
 
 
-<p align="center">
-  <img width="460" height="300" src="![instabrowser](https://user-images.githubusercontent.com/47100747/112504963-f25b6f00-8da9-11eb-8d55-c5e80183998c.gif)">
 
+![instabrowser](https://user-images.githubusercontent.com/47100747/112504963-f25b6f00-8da9-11eb-8d55-c5e80183998c.gif)
+<br>
 ![Android-phishing-app1](https://user-images.githubusercontent.com/47100747/112440719-43e30a00-8d68-11eb-803f-25dceee5e384.jpg)
 ![Android-phishing-app2](https://user-images.githubusercontent.com/47100747/112440756-4cd3db80-8d68-11eb-88a2-61595b2c9eab.jpg)
 ![PicsArt_03-25-08 46 15](https://user-images.githubusercontent.com/47100747/112506812-bb865880-8dab-11eb-9ba0-cff77450ec0d.jpg)
 
-</p>
+
 
 
 <h2>Donate Bitcoin!</h2>
