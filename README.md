@@ -13,5 +13,5 @@ Android Phishing Application.<br/>
 <h2>Donate!
  
   This project is totally free but you can suppurt me to make amazing apps:)
-  ![mywallet](https://user-images.githubusercontent.com/47100747/112451496-32532f80-8d73-11eb-91d6-5e980c446144.jpg)
+  ![mywallet](https://user-images.githubusercontent.com/47100747/112452059-d341ea80-8d73-11eb-8c5e-1a73ab172b82.jpg)
 
