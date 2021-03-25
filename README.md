@@ -1,6 +1,6 @@
 # InstaBrowser
 Android Phishing Application.<br/>
-<h1>Term of Use:</h1><br/>
+<h1>Term of Use:<br/>
 -This Project is for Educational purposes only.<br/>
 -The Developer of this application is not responsible of any bad usage.
 
